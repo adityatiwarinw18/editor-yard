@@ -4,5 +4,5 @@ import EditorInstance from "ckeditor5-custom-build";
 
 export default function Editor({ content }: { content: string }) {
   console.log("CkEditor>>>", { CKEditor });
-  return <CKEditor editor={EditorInstance} data={content} />;
+  return <CKEditor editor={EditorInstance} data={content} config={{}} />;
 }
